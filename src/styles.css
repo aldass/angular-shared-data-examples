@@ -1,1 +1,15 @@
-/* Add application styles & imports to this file! */
+div.child {
+    border-style: solid;
+    border: 2px solid blueviolet
+}
+
+div.parent {
+    border-style: solid;
+    border: 2px solid blue
+}
+
+div.stranger {
+    border-style: solid;
+    border: 2px solid blue
+}
+

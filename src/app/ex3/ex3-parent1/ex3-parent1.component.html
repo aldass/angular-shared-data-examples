@@ -1,0 +1,6 @@
+<div class="parent">
+    <h1>I am the Parent</h1>
+    <p> Child to Parent sharing of data via an via Output() and EventEmitter. </p>
+    <p>Message (from child): {{message}}</p>
+    <app-ex3-child1 (messageEvent)="receiveMessage($event)"></app-ex3-child1>
+</div>

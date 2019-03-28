@@ -1,0 +1,9 @@
+<div class="parent">
+    <h1>I am the Parent</h1>
+    <p> Parent to Child sharing of data via an '@Input()' </p>
+    <p>Message to send child: {{ex1Parent1Msg}}</p>
+    <p> <button type="button" (click)="updateMessage()">Click me to update 'message' var in the parent which will automaticly be updated in the child</button></p>
+    <p>
+        <app-ex1-child1 [ex1Child1Msg]="ex1Parent1Msg"></app-ex1-child1>
+    </p>
+</div>

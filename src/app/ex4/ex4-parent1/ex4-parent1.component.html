@@ -1,0 +1,8 @@
+<div class="parent">
+    <h1>I am Parent 1 getting data thru a shared data service and then passing that data on to my child via and @Input() var.</h1>
+    <p> Sharing of data via an shared data service. </p>
+    <p>Message (from shared data service): {{message}}</p>
+    <p>
+        <app-ex4-child1 [ex4Child1Message]="message"></app-ex4-child1>
+    </p>
+</div>

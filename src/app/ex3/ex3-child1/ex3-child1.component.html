@@ -1,0 +1,6 @@
+<div class="child">
+    <h2>I am the Child</h2>
+    <p> When you click the button below I'll update the 'message' var's value and you'll see it update in the parent. </p>
+    <p>Message: {{message}}</p>
+    <p> <button type="button" (click)="updateAndEmitMessage()">Click me to update 'message' var in child which will also emit a msg to the parent</button></p>
+</div>

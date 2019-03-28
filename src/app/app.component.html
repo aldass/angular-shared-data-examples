@@ -1,4 +1,14 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<app-hello name="{{ name }}"></app-hello>
+<p> Share data amongst components four different ways</p>
+<p> al.dass@gmail.com</p>
+
+<ul>
+    <li><a routerLink="ex1">Example 1: Parent to Child sharing of data via an '@Input()' </a></li>
+    <li><a routerLink="ex2">Example 2: Child to Parent sharing of data (pull from parent) via an 'ViewChild(Ex2Child1Component)' var in the parent component </a></li>
+    <li><a routerLink="ex3">Example 3: Child to Parent sharing of data (push from child) via an Output() and EventEmitter</a></li>
+    <li><a routerLink="ex4">Example 4: Data sharing between multiple independent components using a Service with a RxJs BehaviorSubject and Observable </a></li>
+</ul>
+
+<div>
+    <router-outlet></router-outlet>
+</div>
