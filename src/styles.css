@@ -1,15 +1,21 @@
 div.child {
     border-style: solid;
-    border: 2px solid blueviolet
+    border: 2px solid greenyellow;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 div.parent {
     border-style: solid;
-    border: 2px solid blue
+    border: 2px solid blue;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 div.stranger {
     border-style: solid;
-    border: 2px solid blue
+    border: 2px solid green;
+    margin: 1rem;
+    padding: 1rem;
 }
 

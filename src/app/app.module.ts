@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { NgVersionComponent } from './ng-version.component';
 
 import { Ex1Component } from './ex1/ex1.component';
 import { Ex1Parent1Component } from './ex1/ex1-parent1/ex1-parent1.component';
@@ -28,7 +28,7 @@ import { Ex4Stranger1Component } from './ex4/ex4-stranger1/ex4-stranger1.compone
 import { Ex4SharedDataService } from './ex4/ex4-shared-data-service/ex4-shared-data.service';
 
 const appRoutes: Routes = [
-  { path: '', component: HelloComponent },
+  { path: '', component: NgVersionComponent },
   { path: 'ex1', component: Ex1Component },
   { path: 'ex2', component: Ex2Component },
   { path: 'ex3', component: Ex3Component },
@@ -40,7 +40,7 @@ const appRoutes: Routes = [
   providers: [Ex4SharedDataService],
   declarations: [
     AppComponent,
-    HelloComponent,
+    NgVersionComponent,
     Ex1Component,
     Ex1Parent1Component,
     Ex1Child1Component,
